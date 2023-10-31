@@ -13,7 +13,8 @@ const Modal = forwardRef(function Modal({ children }, ref) {
         dialog.current.close();
       },
     };
-  });
+  })
+  ;
 
   return createPortal(
     <dialog className="modal" ref={dialog}>
